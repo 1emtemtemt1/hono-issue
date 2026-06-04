@@ -1,0 +1,17 @@
+{
+  "name": "hono-issue",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "hono": "^4.12.23",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
