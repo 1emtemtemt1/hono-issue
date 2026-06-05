@@ -4,14 +4,10 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
-  "scripts": {
-    "build": "tsup"
-  },
   "dependencies": {
-    "hono": "^4.12.23",
-    "tsup": "^8.5.1",
-    "typescript": "^6.0.3"
+    "@hono/node-server": "^2.0.4",
+    "hono": "^4.12.23"
   }
 }
